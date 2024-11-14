@@ -1,0 +1,59 @@
+html {
+  font-family:'Courier New', Courier, monospace;
+}
+
+body{
+background-color: rgb(3, 93, 3);
+}
+
+header {
+  background-color: burlywood;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+}
+
+#pantry-items {
+  background-color: aquamarine;
+}
+ #pantry-items h2 {
+  background: burlywood;
+  text-align: center;
+ }
+.food-img {
+width: 250px;
+padding-bottom: 5px;
+}   
+
+.items-box {
+  background-color: grey;
+  width: 190px;
+
+}
+
+.grocery-categ {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.content-box{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 10px 0px;
+  margin-top: 20px;
+}
+
+
+#freezer-items{
+  background-color:  rgb(237, 145, 33) ;
+}
+ 
+#freezer-items h2 {
+  background: burlywood;
+  text-align: center;
+ }
